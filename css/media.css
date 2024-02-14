@@ -1,0 +1,1687 @@
+@media(max-width:1200px) {
+
+  /******header****/
+  .container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .header-logo {
+    width: 14%;
+    margin-right: auto;
+  }
+
+  .header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-top: 26px;
+  }
+
+  .header-nav {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+    margin-right: 0;
+    width: 100%;
+    border: 1px solid #E6E8EC;
+    margin-top: 30px;
+  }
+
+  .header-search {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+
+  .header-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+  }
+
+  /****main****/
+  .mainphoto {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../img/backgroundimage/microphone-hero.jpg) no-repeat;
+    background-size: 25%;
+    background-position: 74% 11%;
+  }
+
+  .section-1 {
+    padding-top: 0;
+    padding-bottom: 93px
+  }
+
+  .radio-items-descr {
+    max-width: 539px;
+    margin-bottom: 22px;
+  }
+
+  .btn-radio {
+    padding: 21px 51px;
+  }
+
+  /****content****/
+  .content-info {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 39px 67px 40px 30px;
+    background: #FFF;
+    width: 73%;
+  }
+
+  .content-time {
+    margin-bottom: 8px;
+  }
+
+  .content-items-title {
+    margin-bottom: 30px;
+  }
+
+  /****broadcast****/
+  .section-2 {
+    gap: 51px;
+  }
+
+  .broadcast-list-item {
+    width: calc((100% - 15px*2) / 2);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-top: 169px;
+    padding-bottom: 15px;
+  }
+
+  .broadcast-descr {
+    margin-bottom: 17px;
+  }
+
+  .broadcast-left {
+    -ms-flex-preferred-size: 87%;
+    flex-basis: 87%;
+  }
+
+  .broadcast-right {
+    padding-top: 12px;
+  }
+
+  .broadcast-title {
+    margin-bottom: 20px;
+  }
+
+  .btn-broadcast {
+    padding-top: 7px;
+    margin-bottom: 13px;
+  }
+
+  .broadcast-title-descr {
+    width: 108%;
+  }
+
+  /***guests***/
+
+  .guests-descr {
+    width: 100%;
+  }
+
+  .guests-name {
+    margin-bottom: 9px;
+  }
+
+
+  .btn-guests {
+    padding: 9px 19px;
+  }
+
+  .guests-item-descr {
+    width: 69%;
+  }
+
+  /****palylists****/
+  .section-5 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-bottom: 94px;
+  }
+
+  .playlist-item-descr {
+    width: 100%;
+  }
+
+  .playlists_left {
+    margin-bottom: 21px;
+  }
+
+  .playlist-list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: calc((100% - 17px * 4) / 3);
+  }
+
+  .playlist-list-item:not(:nth-child(3n+1)) {
+    margin-right: 0;
+  }
+
+  .playlist-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 14px 0px 16px 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 73%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+
+  .playlist-list {
+    gap: 30px;
+    padding-top: 20px;
+  }
+
+  .playlist-item-logo {
+    margin-bottom: 11px;
+  }
+
+  .playlists-flag-russia {
+    position: absolute;
+    left: 0px;
+  }
+
+  .image-russia-playlists {
+    position: relative;
+  }
+
+  .playlists-flag-england {
+    position: absolute;
+    left: 0;
+  }
+
+  .playlists-image-england {
+    position: relative;
+  }
+
+  /*****magnitola*****/
+  .section-6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 96px;
+  }
+
+  .radio-new {
+    position: absolute;
+    width: 26%;
+    height: 30%;
+    -webkit-transform: translatey(-329%);
+    -ms-transform: translatey(-329%);
+    transform: translatey(-329%);
+  }
+
+  .radio-image-block {
+    padding-bottom: 31px;
+    padding-top: 0;
+  }
+
+  .radio-info {
+    width: 48%;
+  }
+
+  .radio-btn {
+    padding-top: 25px;
+    padding-right: 14px;
+    padding-bottom: 21px;
+    padding-left: 39px;
+  }
+
+  /****about-us****/
+  .about-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .about-left {
+    width: 58%;
+  }
+
+  .about-list-item {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 31%;
+    flex: 1 0 31%;
+  }
+
+  .about-description {
+    width: 124%;
+    margin-bottom: 8px;
+  }
+
+  .about-descr {
+    width: 124%;
+  }
+
+  .about-list-container {
+    margin-bottom: 35px;
+  }
+
+  .container-bottom {
+    margin-bottom: 33px;
+  }
+
+  .about-container {
+    width: 99%;
+  }
+
+  .about-item-fio {
+    padding: 18px 35px;
+    width: 102%;
+  }
+
+  .about-image {
+    background: url(/img/backgroundimage/dawn-about-us.png) no-repeat;
+    background-position: 102% 38%;
+    background-size: 70%;
+  }
+
+  .btn-about {
+    padding: 24px 52px;
+    margin-bottom: 30px;
+  }
+
+  .section-7 {
+    padding-bottom: 61px;
+  }
+
+  /****footer****/
+  .footer {
+    background-size: 190%;
+    background-position: 79% 89%;
+  }
+
+  .container-footer-right {
+    width: 54.2%;
+  }
+}
+
+@media(max-width:992px) {
+
+  /***header***/
+  .header-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: scroll;
+  }
+
+  .line svg {
+    width: 300px;
+  }
+
+  /***main***/
+  .mainphoto {
+    display: none;
+  }
+
+  /***content***/
+  .content-picture-date {
+    position: absolute;
+    width: 57px;
+  }
+
+  .content-list-item {
+    width: calc((100% - 8px * 1) / 1);
+  }
+
+  .content-info {
+    padding: 37px 79px 29px 30px;
+  }
+
+  /***broadcast***/
+  .broadcast-archive {
+    display: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    width: 65%;
+  }
+
+  .section-2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .broadcast-list-item {
+    padding: 30% 40px 12px 16px;
+  }
+
+  .broadcast {
+    position: relative;
+    padding-bottom: 31px;
+  }
+
+  .broadcast-microphone {
+    background-image: url(../img/contextualimage/transfers-mic-cintext.png);
+    background-repeat: no-repeat;
+    background-position: 21% 100%;
+    background-size: 13%;
+  }
+
+  /***playlists***/
+  .playlist-info {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 53%;
+    flex: 1 0 53%;
+  }
+
+  /***guests***/
+  .guests-list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .guests-info {
+    padding: 38px 0 0 0;
+  }
+
+  .guests-descr {
+    width: 68%;
+    margin-bottom: 20px;
+  }
+
+  /***magnitola***/
+  .radio-btn {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+@media(max-width:768px) {
+
+  /***header***/
+  .container {
+    padding-left: 114px;
+    padding-right: 114px;
+  }
+
+  .header-container {
+    padding-top: 25px;
+  }
+
+  .header-nav {
+    margin-top: 48px;
+  }
+
+  .header-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 48px;
+    padding-top: 3px;
+  }
+
+  .header-logo {
+    width: 21%;
+  }
+
+  .header-link {
+    color: #121723;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  /***playlists***/
+  .playlist-info {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 57%;
+    flex: 1 1 57%;
+  }
+
+  /****content****/
+  .content-list-item {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 49%;
+    flex: 1 0 49%;
+  }
+
+  .content-info {
+    width: 79%;
+    padding: 37px 50px 29px 30px;
+  }
+
+  /****broadcast****/
+  .broadcast-list-item {
+    padding: 31% 40px 17px 16px;
+  }
+
+  .section-3 {
+    gap: 32px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-bottom: 31px;
+  }
+
+  .broadcast-left {
+    margin-right: 0;
+  }
+
+  .broadcast {
+    padding-bottom: 0px;
+  }
+
+  .broadcast-archive {
+    display: none;
+  }
+
+  .broadcast-archive-2 {
+    display: inherit;
+    padding-top: 30px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    border-top: 1px solid #E6E8EC;
+    width: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: right;
+    -ms-flex-pack: right;
+    justify-content: right;
+    gap: 20px;
+  }
+
+  .broadcast-de {
+    width: 65%;
+  }
+
+  .broadcast-list {
+    margin-bottom: 27px;
+  }
+
+  .broadcast-left {
+    margin-bottom: 61px;
+  }
+
+  .btn-broadcast {
+    padding: 9px 56px;
+    margin-bottom: 9px;
+    width: 45%;
+  }
+
+  .broadcast-title-descr {
+    width: 80%;
+  }
+
+  /****guests****/
+  .guests-item-descr {
+    width: 100%;
+  }
+
+  .guests-descr {
+    margin-bottom: 32px;
+    width: 67%;
+  }
+
+  .guests-list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .guests-info {
+    padding: 31px 0 0 0;
+  }
+
+  .guests-name {
+    margin-bottom: 8px;
+  }
+
+  /****playlists****/
+  .playlist-list-item {
+    width: calc((100% - 15px * 2) / 2)
+  }
+
+  .playlists-list {
+    gap: 30px;
+  }
+
+  .playlist-item-descr {
+    width: 96%;
+  }
+
+  .section-5 {
+    padding-bottom: 114px;
+  }
+
+  .playlist-info {
+    padding: 21px 0px 16px 11px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 55%;
+    flex: 1 1 55%;
+  }
+
+  .playlists-right {
+    padding-top: 19px;
+  }
+
+  /****magnitola***/
+  .section-6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    gap: 12px;
+    padding-top: 55px;
+  }
+
+  .radio-title {
+    margin-bottom: 18px;
+  }
+
+  .radio-info {
+    width: 100%;
+  }
+
+  .radio-image-block {
+    padding-bottom: 38px;
+
+  }
+
+  .radio-descr {
+    width: 100%;
+  }
+
+  .radio-description {
+    width: 100%;
+  }
+
+  .radio-new {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    -webkit-transform: translatey(-323%);
+    -ms-transform: translatey(-323%);
+    transform: translatey(-323%);
+  }
+
+  /****about-us***/
+  .about-left {
+    width: 68%;
+  }
+
+  .about {
+    position: relative;
+  }
+
+  .about-descr {
+    width: 130%;
+  }
+
+  .about-images {
+    position: absolute;
+    width: 124%;
+    min-height: 123px;
+    background-image: url(/img/backgroundimage/spiral-768.png), url(/img/backgroundimage/dawn-about-us.png);
+    background-repeat: no-repeat;
+    background-position: 0%, 98%;
+    background-size: 77%, 17%;
+    -webkit-transform: translate(-115px, 373px);
+    -ms-transform: translate(-115px, 373px);
+    transform: translate(-115px, 373px);
+  }
+
+  .about-list-item {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 30%;
+    flex: 1 0 30%;
+    min-width: 0;
+    min-height: 0;
+  }
+
+  .about-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .about-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 141px;
+  }
+
+  .about-fio {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .about-name {
+    width: 99%;
+  }
+
+  .about-email {
+    width: 100%;
+  }
+
+  .about-btn {
+    gap: 30px;
+  }
+
+  .about-descr {
+    width: 145%;
+  }
+
+  .about-description {
+    width: 155%;
+  }
+
+  /****footer****/
+  .footer-image-logo {
+    margin-bottom: 16px;
+  }
+
+  .footer-image-youtube {
+    width: 36px;
+    height: 36px;
+  }
+
+  .footer-image-guest {
+    width: 36px;
+    height: 36px;
+  }
+
+  .footer-image-vk {
+    width: 36px;
+    height: 36px;
+  }
+
+  .container-footer-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 80px;
+  }
+
+  .container-footer-left {
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 30%;
+  }
+
+  .footer-social-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .container-footer-right {
+    width: 100%;
+  }
+
+  .footer-list-right-one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 25px;
+  }
+
+  .footer-list-right-three {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 25px;
+  }
+
+  .footer-list-right-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 25px;
+  }
+
+  .container-footer-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 101px;
+  }
+
+  .footer {
+    background: url(../img/backgroundimage/volna__footer.png) no-repeat;
+    background-size: 249%;
+    background-position: 79% 92%;
+    background-color: #292e39;
+  }
+}
+
+@media(max-width: 576px) {
+
+  /****header****/
+  .container {
+    padding: 0 32px;
+  }
+
+  .header-logo {
+    width: 34%;
+  }
+
+  .header-container {
+    padding-top: 17px;
+  }
+
+  .header-nav {
+    margin-top: 9px;
+  }
+
+  .header-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: scroll;
+    padding-top: 16px;
+    padding-bottom: 15px;
+    gap: 27px;
+  }
+
+  /****main****/
+  .radio-items-title {
+    color: #121723;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 7px;
+  }
+
+  .radio-items-title-2 {
+    color: #121723;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 100%;
+  }
+
+  .radio-items-descr {
+    color: #121723;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146%;
+    margin-bottom: 22px;
+  }
+
+  .section-1 {
+    padding-top: 38px;
+    padding-bottom: 40px;
+  }
+
+  .btn-radio {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 14px 43px;
+  }
+
+  /****content****/
+  .podcasts {
+    padding-top: 54px;
+    padding-bottom: 54px;
+  }
+
+  .content-info {
+    width: 100%;
+    padding: 37px 4px 29px 30px;
+  }
+
+  .content-picture {
+    min-height: 118px;
+  }
+
+  .content-name {
+    color: #121723;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 6px;
+  }
+
+  .content-author {
+    color: #A1A6B4;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .content-picture-date {
+    position: absolute;
+    top: -1px;
+    width: 52px;
+  }
+
+  .content-items-title {
+    margin-bottom: 18px;
+  }
+
+  .content-time {
+    margin-bottom: 4px;
+  }
+
+  /****playlists****/
+  .broadcast-right {
+    padding-top: 3px;
+  }
+
+  .playlist-list-item {
+    font-size: 24px;
+  }
+
+  .playlist-info {
+    width: 50%;
+  }
+
+  /****broadcast****/
+  .broadcast {
+    padding-top: 54px;
+    padding-bottom: 48px;
+  }
+
+  .pic-1 {
+    background: url(../img/320img/transfers-people.png) no-repeat;
+    background-size: 100%;
+    background-position: center top;
+  }
+
+  .pic-2 {
+    background: url(../img/320img/transfers-grafomania.png) no-repeat;
+    background-size: 100%;
+    background-position: center top;
+  }
+
+  .pic-3 {
+    background: url(../img/320img/transfers-no\ rim.png) no-repeat;
+    background-size: 100%;
+    background-position: center top;
+  }
+
+  .pic-4 {
+    background: url(../img/320img/transfers-erudit.png) no-repeat;
+    background-size: 100%;
+    background-position: center top;
+  }
+
+  .pic-5 {
+    background: url(../img/320img/transfers-zaic.png) no-repeat;
+    background-size: 100%;
+    background-position: center top;
+  }
+
+  .pic-6 {
+    background: url(../img/320img/transfers-ejj.png) no-repeat;
+    background-size: 100%;
+    background-position: center top;
+  }
+
+  .broadcast-descr {
+    color: #A1A6B4;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 9px;
+  }
+
+  .broadcast-link {
+    color: #6D31EE;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .broadcast-name {
+    width: 103%;
+  }
+
+  .broadcast-list-item {
+    padding: 23% 5px 6px 10px;
+    min-height: 153px;
+  }
+
+  .broadcast-title {
+    margin-bottom: 19px;
+    color: #121723;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .broadcast-title-descr {
+    color: #A1A6B4;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 93%;
+    margin-bottom: 2px;
+  }
+
+  .broadcast-de {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  /***guests***/
+  .guests {
+    padding-top: 58px;
+    padding-bottom: 54px;
+  }
+
+  .guests-item-name {
+    color: #A1A6B4;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+  }
+
+  .guests-info {
+    padding: 10px 0 0 0;
+  }
+
+  .guests-item-descr {
+    color: #A1A6B4;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 23px;
+  }
+
+  .guests-descr {
+    color: #A1A6B4;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    margin-bottom: 27px;
+  }
+
+  /***guests***/
+  .guests-list {
+    gap: 27px;
+  }
+
+  .btn-guests {
+    padding: 10px 14px;
+  }
+
+  /***playlists***/
+  .playlists {
+    padding-top: 54px;
+    padding-bottom: 54px;
+  }
+
+  .playlist-item-descr {
+    color: #A1A6B4;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    width: 83%;
+  }
+
+  .playlist-item-logo {
+    margin-bottom: 14px;
+    color: #A1A6B4;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 22px;
+  }
+
+  .playlist-list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 44%;
+  }
+
+  .playlist-name {
+    color: #121723;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .playlist-descr {
+    color: #A1A6B4;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .playlists-flag-russia {
+    position: absolute;
+    -webkit-transform: translateX(365%);
+    -ms-transform: translateX(365%);
+    transform: translateX(365%);
+  }
+
+  .playlists-flag-england {
+    position: absolute;
+    -webkit-transform: translateX(365%);
+    -ms-transform: translateX(365%);
+    transform: translateX(365%);
+  }
+
+  /***magnitola***/
+  .magnitola {
+    padding-top: 54px;
+    padding-bottom: 54px;
+  }
+
+  .radio-new {
+    position: absolute;
+    width: 24%;
+    height: 31%;
+    -webkit-transform: translatey(-310%);
+    -ms-transform: translatey(-310%);
+    transform: translatey(-310%);
+  }
+
+  .radio-image-block {
+    padding-bottom: 34px;
+  }
+
+  .radio-title {
+    margin-bottom: 12px;
+  }
+
+  .radio-descr {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 10px;
+  }
+
+  .radio-description {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 6px;
+  }
+
+  .radio-price {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 22px;
+  }
+
+  .radio-btn {
+    color: #F0D288;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 11px 15px;
+    width: 80%;
+  }
+
+  /***about-us***/
+  .about {
+    padding-top: 54px;
+    padding-bottom: 54px;
+  }
+
+  .about-description {
+    color: #A1A6B4;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    width: 139%;
+    margin: 0;
+  }
+
+  .about-descr {
+    color: #A1A6B4;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+  }
+
+  .container-bottom {
+    margin-bottom: 29px;
+  }
+
+  .about-item-name {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    width: 10%;
+    margin-bottom: 5px;
+    padding: 0;
+  }
+
+  .about-item-descr {
+    color: #A1A6B4;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .about-email {
+    width: 100%;
+  }
+
+  .about-item-info {
+    padding-top: 7px;
+  }
+
+  .about-images {
+    display: none;
+  }
+
+  .about-list-container {
+    margin-bottom: 26px;
+  }
+
+  .btn-about {
+    font-size: 16px;
+    padding: 14px 42px;
+    margin-bottom: 19px;
+  }
+
+  .about-checkbox {
+    font-size: 11px;
+  }
+
+  .about-item-fio {
+    padding: 15px 22px;
+    font-size: 16px;
+  }
+
+  /***footer***/
+  .footer {
+    padding-top: 44px;
+    padding-bottom: 54px;
+    background-size: 573%;
+    background-position: 71% 84%;
+  }
+
+  .container-footer-left {
+    width: 62%;
+  }
+
+  .footer-link-right {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .footer-list-right-one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 15px;
+  }
+
+  .footer-list-right-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    padding-top: 85px;
+    -webkit-transform: translatey(20px);
+    -ms-transform: translatey(20px);
+    transform: translatey(20px);
+    gap: 18px;
+  }
+
+  .container-footer-right {
+    position: relative;
+  }
+
+  .footer-positon {
+    position: absolute;
+    -webkit-transform: translate(143px, -110px);
+    -ms-transform: translate(143px, -110px);
+    transform: translate(143px, -110px);
+  }
+
+  .footer-list-right-three {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 19px;
+    position: absolute;
+    padding-top: 32px;
+    -webkit-transform: translateX(144px);
+    -ms-transform: translateX(144px);
+    transform: translateX(144px);
+  }
+
+  .container-footer-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 133px;
+  }
+
+  .footer-ieroglif {
+    font-size: 12px;
+  }
+
+  .line svg {
+    width: 280px;
+  }
+}
+
+@media(max-width: 320px) {
+
+  /***main***/
+  .header-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: scroll;
+    padding-top: 20px;
+    gap: 27px;
+  }
+
+  /***main***/
+  .content-list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .content-info {
+    padding: 33px 64px 30px 16px;
+  }
+
+  .content-picture {
+    min-height: 0;
+  }
+
+  /***broadcast***/
+  .broadcast {
+    padding-bottom: 54px;
+    position: relative;
+  }
+
+  .section-2 {
+    gap: 2px;
+  }
+
+  .btn-broadcast {
+    padding: 7px 29px;
+    margin-bottom: 6px;
+  }
+
+  /***guests***/
+  .guests-list-item {
+    gap: 2px;
+    margin-bottom: 27px;
+  }
+
+  /***playlists***/
+  .playlists-list {
+    gap: 30px;
+  }
+
+  .playlist-left {
+    margin-bottom: 16px;
+  }
+
+  .playlist-list-item {
+    width: calc((100% - 15px * 2) / 2);
+    margin-bottom: 19px;
+  }
+
+  .playlists-image-russia {
+    display: block;
+  }
+
+  .playlists-image-england {
+    display: block;
+  }
+
+  .playlist-info {
+    padding: 2px 9px 0px 9px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 33%;
+    flex: 1 0 33%;
+    width: 100%;
+  }
+
+  .guests-item-name {
+    margin: 0;
+  }
+
+  .guests-descr {
+    width: 97%;
+    margin-bottom: 28px;
+  }
+
+  /***magnitola***/
+  .radio-title {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 8px;
+  }
+
+  .radio-price {
+    margin-bottom: 22px;
+  }
+
+  .radio-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 41px;
+    padding-top: 11px;
+    padding-right: 13px;
+    padding-bottom: 16px;
+  }
+
+  .about-title {
+    margin-bottom: 11px;
+  }
+
+  .broadcast-list-item {
+    min-height: 149px;
+    padding: 60px 5px 10px 10px;
+  }
+
+  .titles {
+    padding-top: 5px;
+    margin-bottom: 0;
+  }
+
+  .section-1 {
+    padding-bottom: 42px;
+  }
+
+  .content-items-title {
+    font-size: 24px;
+    margin-bottom: 7px;
+  }
+
+  .podcasts {
+    padding-top: 44px;
+  }
+
+  .broadcast-title {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+
+  .broadcast-name {
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 500;
+    margin-bottom: 6px;
+  }
+
+  .section-3 {
+    gap: 0;
+  }
+
+  .broadcast-left {
+    margin-bottom: 0;
+  }
+
+  .broadcast-descr {
+    width: 96%;
+    margin-bottom: 0;
+  }
+
+  .broadcast-link {
+    margin-top: auto;
+  }
+
+  .broadcast-archive-2 {
+    gap: 0;
+    -webkit-box-pack: right;
+    -ms-flex-pack: right;
+    justify-content: right;
+    padding-top: 35px;
+  }
+
+  .broadcast-mic {
+    width: 77px;
+    height: 105px;
+    margin-bottom: 40px;
+  }
+
+  .broadcast-microphone {
+    background-position: 2% 94%;
+    background-size: 28%;
+    -webkit-transform: translateX(-23px);
+    -ms-transform: translateX(-23px);
+    transform: translateX(-23px);
+  }
+
+  .broadcast-de {
+    width: 64%;
+  }
+
+  .broadcast-title-descr {
+    width: 94%;
+  }
+
+  .btn-broadcast {
+    width: 66%;
+  }
+
+  .guests-item-title {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .guests {
+    padding-top: 55px;
+    padding-bottom: 26px;
+  }
+
+  .guests-sec {
+    margin: 0;
+  }
+
+  .guests-item-descr {
+    margin-bottom: 26px;
+  }
+
+  .playlist-item-title {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .section-5 {
+    padding-top: 55px;
+    padding-bottom: 52px;
+  }
+
+  .playlist-item-descr {
+    width: 100%;
+  }
+
+  .playlist-list {
+    padding: 0;
+  }
+
+  .section-6 {
+    gap: 0;
+  }
+
+  .about-title {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .about {
+    padding-top: 56px;
+    padding-bottom: 23px;
+  }
+
+  .about-info {
+    margin: 0;
+  }
+
+  .about-form {
+    gap: 22px;
+  }
+
+  .about-point {
+    font-size: 9px;
+    line-height: 9px;
+  }
+
+  .footer {
+    padding-top: 57px;
+  }
+}
